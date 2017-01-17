@@ -16,19 +16,10 @@
         android:orientation="vertical"
         android:layout_width="240dp"
         android:layout_height="250dp"
-        android:foreground="@color/colorPrimary"
+
         android:layout_marginTop="5dp"
         android:layout_marginLeft="10dp"
         android:id="@+id/llResult" />
-
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="290dp"
-        android:layout_height="250dp"
-        android:foreground="@color/colorPrimary"
-        android:layout_marginTop="5dp"
-        android:layout_marginLeft="270dp"
-        android:id="@+id/llEstado" />
 
 
     <TextView
@@ -36,11 +27,12 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="54dp"
+        android:layout_marginTop="60dp"
         android:id="@+id/tvResultTexto"
-        android:textSize="30sp"
+        android:textSize="24sp"
         android:layout_marginLeft="30dp"
-        android:textColor="@android:color/background_light" />
+        android:textColor="@android:color/black"
+        tools:textColor="@android:color/black" />
 
     <TextView
         android:text="25"
@@ -48,7 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
         android:layout_marginStart="70dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="5dp"
         android:id="@+id/tvResultIMC"
         android:textSize="50sp"
         android:layout_below="@+id/tvResultTexto"
@@ -60,21 +52,21 @@
         android:text="@string/estadoDe"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="54dp"
+        android:layout_marginTop="60dp"
         android:layout_marginLeft="60dp"
         android:id="@+id/tvEstadoTexto"
-        android:textSize="30sp"
+        android:textSize="24sp"
 
         android:layout_toRightOf="@+id/llResult"
 
         android:layout_marginRight="20dp"
-        android:textColor="@android:color/background_light" />
+        android:textColor="@android:color/black" />
 
     <TextView
         android:text="Normalidad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:id="@+id/tvEstadoIMC"
         android:textSize="50sp"
         android:textStyle="normal|bold"
@@ -83,6 +75,19 @@
         android:layout_marginLeft="30dp"
          />
 
-
+    <Button
+        android:text="@string/verRangos"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="0dp"
+        android:id="@+id/bVerRangos"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:text="HOME"
+        android:layout_width="150dp"
+        android:id="@+id/bHome"
+        android:layout_height="50dp" />
 
 </RelativeLayout>

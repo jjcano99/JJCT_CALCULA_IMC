@@ -13,4 +13,6 @@
     <string name="estadoDe">Se corresponde con un estado de:</string>
     <string name="parametrosIncorrectos">Parámetros incorrectos</string>
     <string name="tuIndice">Tu Índice de Masa Corporal es:</string>
+    <string name="verRangos">Ver rangos</string>
+    <string name="volver">Volver</string>
 </resources>
