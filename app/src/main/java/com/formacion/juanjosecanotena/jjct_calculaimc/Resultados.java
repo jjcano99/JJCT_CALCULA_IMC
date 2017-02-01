@@ -2,6 +2,7 @@ package com.formacion.juanjosecanotena.jjct_calculaimc;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -25,6 +26,19 @@ public class Resultados extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
 
         Log.d(getClass().getCanonicalName(), "INICIO DE ONCREATE");
+
+      //  SharedPreferences preferences = getSharedPreferences("Preferencias",MODE_PRIVATE);
+
+       // String sesion = preferences.getString("Sesion","");
+
+
+       // SharedPreferences.Editor editor = preferences.edit();
+
+       // editor.putString("Sesion","27");
+
+
+      //  Log.d(getClass().getCanonicalName(), sesion);
+
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_resultados);
